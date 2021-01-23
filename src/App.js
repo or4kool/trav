@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Joro one time Nice. Oya tule
+          Joro one time Nice. Oya tule. Runner
         </a>
       </header>
     </div>

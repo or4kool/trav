@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t or4kool/unittester -f Dockerfile.dev .
+
+script:
+  - docker run or4kool/unittester npm run test -- --coverage
